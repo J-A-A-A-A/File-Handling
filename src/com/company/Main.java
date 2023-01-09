@@ -7,6 +7,7 @@ public class Main {
         try {
             FileReader fr = new FileReader("input_file.txt");
             int ascii = fr.read();
+            System.out.println(ascii);
         }
         catch(IOException e) {
             e.printStackTrace();
