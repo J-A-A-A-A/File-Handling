@@ -12,8 +12,7 @@ public class Main {
                 char letter = (char)ascii;
                 System.out.println(letter);
             }
-        }
-        catch(IOException e) {
+        } catch(IOException e) {
             e.printStackTrace();
         }
     }
